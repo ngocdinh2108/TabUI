@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab UI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="tab">
+      <div class="tab-title-list">
+        <div class="tab-title-item active" data-tab="1">
+          <i class="fas fa-code tab-title-icon"></i>
+          <div class="tab-title-text">JavaScript</div>
+        </div>
+        <div class="tab-title-item" data-tab="2">
+          <i class="fas fa-cog tab-title-icon"></i>
+          <div class="tab-title-text">React</div>
+        </div>
+        <div class="tab-title-item" data-tab="3">
+          <i class="fas fa-plus-circle tab-title-icon"></i>
+          <div class="tab-title-text">Angular</div>
+        </div>
+        <div class="tab-title-item" data-tab="4">
+          <i class="fas fa-pen-nib tab-title-icon"></i>
+          <div class="tab-title-text">Vue</div>
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="tab-content-list">
+        <div class="tab-content-item active" data-content="1">
+          <h1 class="tab-content-heading">JavaScript</h1>
+          <p class="tab-content-body">
+            JavaScript, often abbreviated as JS, is a programming language that
+            conforms to the ECMAScript specification. JavaScript is high-level,
+            often just-in-time compiled, and multi-paradigm. It has
+            curly-bracket syntax, dynamic typing, prototype-based
+            object-orientation, and first-class functions.
+          </p>
+        </div>
+        <div class="tab-content-item" data-content="3">
+          <h1 class="tab-content-heading">Angular</h1>
+          <p class="tab-content-body">
+            Angular is a TypeScript-based free and open-source web application
+            framework led by the Angular Team at Google and by a community of
+            individuals and corporations. Angular is a complete rewrite from the
+            same team that built AngularJS.
+          </p>
+        </div>
+        <div class="tab-content-item" data-content="4">
+          <h1 class="tab-content-heading">Vue</h1>
+          <p class="tab-content-body">
+            Vue.js is an open-source model–view–viewmodel front end JavaScript
+            framework for building user interfaces and single-page applications.
+            It was created by Evan You, and is maintained by him and the rest of
+            the active core team members.
+          </p>
+        </div>
+        <div class="tab-content-item" data-content="2">
+          <h1 class="tab-content-heading">React</h1>
+          <p class="tab-content-body">
+            React is a free and open-source front-end JavaScript library for
+            building user interfaces or UI components. It is maintained by
+            Facebook and a community of individual developers and companies.
+            React can be used as a base in the development of single-page or
+            mobile applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
